@@ -45,7 +45,11 @@ public class stepdeffinttion extends Utils {
 	public void user_needs_to_using_http_request(String resource, String httpcall) {
      enumhttpresources method =		enumhttpresources.valueOf(resource);
      System.out.println(method.getresource());
-		
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
      respp =	new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 	
         if(httpcall.equalsIgnoreCase("POST"))
