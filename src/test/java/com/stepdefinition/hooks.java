@@ -15,7 +15,12 @@ public class hooks {
 		sd.user_needs_to_add_place_payload_with("naveen", "3939398449843434", "sjdjhdjd jdjddjdj oddkdkod");
 	    sd.user_needs_to_using_http_request("addplace", "POST");
 	    sd.user_needs_to_maps_to_and_need_to_the_request("naveen", "getplace");
-	}
+	    System.out.println("output1");
+	    System.out.println("output1");
+	    System.out.println("output1");
+	    System.out.println("output1");
+	    System.out.println("output1");
+		}
 	}
 
 }

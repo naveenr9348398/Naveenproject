@@ -50,6 +50,11 @@ public class stepdeffinttion extends Utils {
      System.out.println("output1");
      System.out.println("output1");
      System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
+     System.out.println("output1");
      respp =	new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 	
         if(httpcall.equalsIgnoreCase("POST"))
